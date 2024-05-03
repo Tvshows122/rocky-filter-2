@@ -53,7 +53,7 @@ async def start(client, message):
         m=await message.reply_text("💕")
         await asyncio.sleep(1)
         await m.delete()
-        m=await message.reply_sticker("CAACAgIAAxkBAAIg52XlPpRWO3aCnaA4cjay1oNvuXYoAAJjAQACEBptImu6AmhfaYu5HgQ") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEMC1VmNK3M2OZV9bugtpzUy0fmE-ZigwACHgwAAv7nqVUKMgvLpPsd3jQE") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
